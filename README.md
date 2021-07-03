@@ -38,6 +38,6 @@ successful,only one needs to be left, and all others need to be deleted
 
 ## Operating environment
 > * Linux environment
-> * Srcml(https://www.srcml.org/)
+> * Srcml (https://www.srcml.org/)
 > * Python3 environment
 
