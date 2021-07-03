@@ -23,7 +23,7 @@ Change the original author's code style, a total of 19 types of code conversion,
    2）Turn the original program that failed to attack to all target authors, and then select the original program that succeeded in attack through model test, and add it to the original program that succeeded in the first step, that is the original test set of all successful attacks.
 
 ## Operation Steps
-1. **Data processing**. `“find . -name '***.c**' ! -type d -exec bash -c 'expand -t 4 "$0" > /tmp/e && mv /tmp/e "$0"' {} \;”` Process the C / C + + data set or Java first. After processing, it's better to save it and replace it with the original data. After that, you don't need to execute the second command (the black bold part should be modified according to your own data set)
+1. **Data processing**. `find . -name '*.c' ! -type d -exec bash -c 'expand -t 4 "$0" > /tmp/e && mv /tmp/e "$0"' {} \;` Process the C / C + + data set or Java first. After processing, it's better to save it and replace it with the original data. After that, you don't need to execute the second command (the black bold part should be modified according to your own data set)
 
 ## Operating environment
 
