@@ -13,8 +13,8 @@ Change the original author's code style, a total of 19 types of code conversion,
 ## Function
 1. **Directional conversion**. All programs of the original author are transformed into the style of all target authors
 2. **Non directional conversion**. All programs of the original author are transformed into the style of the target author.(There are any target authors, so that the transformed program can attack successfully)  
-   i.First, all the programs are transferred to the optimal target author, and the original program with successful attack is selected through model test.
-   ii. Turn the original program that failed to attack to all target authors, and then select the original program that succeeded in attack through model test, and add it to the original program that succeeded in the first step, that is the original test set of all successful attacks.
+  i. First, all the programs are transferred to the optimal target author, and the original program with successful attack is selected through model test.
+  ii. Turn the original program that failed to attack to all target authors, and then select the original program that succeeded in attack through model test, and add it to the original program that succeeded in the first step, that is the original test set of all successful attacks.
 
 ## Operation Steps
 1. **Data processing**. `find . -name '*.c' ! -type d -exec bash -c 'expand -t 4 "$0" > /tmp/e && mv /tmp/e "$0"' {} \;` Process the C / C + + data set or Java first. After processing, it's better to save it and replace it with the original data. After that, you don't need to execute the second command (modify *. C according to your own data set)
