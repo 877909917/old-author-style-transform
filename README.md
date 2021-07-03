@@ -19,14 +19,14 @@ Change the original author's code style, a total of 19 types of code conversion,
 ## Operation Steps
 1. **Data processing**. `find . -name '*.c' ! -type d -exec bash -c 'expand -t 4 "$0" > /tmp/e && mv /tmp/e "$0"' {} \;` Process the C / C + + data set or Java first. After processing, it's better to save it and replace it with the original data. After that, you don't need to execute the second command (modify *. C according to your own data set)
 2. **Enter test_transform directory**.
-1) Put the test set in "./program_file/test" directory
-2) Place the target author style data set in "./program_file/target_author_file” directory
-3) Execute the `python scan.py` command to generate the XML file of author style and program
-   output："./author_style" directory
-		     "./xml_file" directory
-4) Directional conversion
-   a)	run `python directional_transform.py` command
-   b)	output: "./program_file/directional_file" directory
+  >	* Put the test set in "./program_file/test" directory
+  >	* Place the target author style data set in "./program_file/target_author_file” directory
+  >	* Execute the `python scan.py` command to generate the XML file of author style and program
+  >		* output："./author_style" directory
+  >		* "./xml_file" directory
+  >	* Directional conversion
+  >		* run `python directional_transform.py` command
+  >		output: "./program_file/directional_file" directory
 5) Non directional conversion
    a)	run `python non_directional.py 1` command ,find the appropriate target author,leave the non directional success program after model testing, output directory: "./program_file/nondirectional_file"
    b)	put the non directed attack success in the './tool/data_precessing'
