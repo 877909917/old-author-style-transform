@@ -37,7 +37,7 @@ Change the original author's code style, a total of 19 types of code conversion,
 successful,only one needs to be left, and all others need to be deleted
 
 ## Operating environment
-1.	Linux environment
-2.	Srcml(https://www.srcml.org/)
-3.	Python3 environment
+> * Linux environment
+> * Srcml(https://www.srcml.org/)
+> * Python3 environment
 
