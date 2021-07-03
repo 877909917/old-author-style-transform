@@ -17,7 +17,7 @@ Change the original author's code style, a total of 19 types of code conversion,
   >	* Turn the original program that failed to attack to all target authors, and then select the original program that succeeded in attack through model test, and add it to the original program that succeeded in the first step, that is the original test set of all successful attacks.
 
 ## Operation Steps
-1. **Data processing**. `find . -name '*.c' ! -type d -exec bash -c 'expand -t 4 "$0" > /tmp/e && mv /tmp/e "$0"' {} \;` Process the C / C + + data set or Java first. After processing, it's better to save it and replace it with the original data. After that, you don't need to execute the second command (modify *. C according to your own data set)
+1. **Data processing**. `find . -name '*.c' ! -type d -exec bash -c 'expand -t 4 "$0" > /tmp/e && mv /tmp/e "$0"' {} \;` Process the C / C + + data set or Java first. After processing, it's better to save it and replace it with the original data. After that, you don't need to execute the second command (modify '*. c' according to your own data set)
 2. **Enter test_transform directory**.
   >	* Put the test set in "./program_file/test" directory
   >	* Place the target author style data set in "./program_file/target_author_file” directory
