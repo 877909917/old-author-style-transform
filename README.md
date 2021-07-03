@@ -27,13 +27,13 @@ Change the original author's code style, a total of 19 types of code conversion,
   >	* Directional conversion
   >		* run `python directional_transform.py` command
   >		output: "./program_file/directional_file" directory
-5) Non directional conversion
-   a)	run `python non_directional.py 1` command ,find the appropriate target author,leave the non directional success program after model testing, output directory: "./program_file/nondirectional_file"
-   b)	put the non directed attack success in the './tool/data_precessing'
-   c)	get into tool directory, run `python deal_non_dir.py 1`
-   d)	get into test_transform directory, run `python non_directional.py all` transform to all target authors,leave the non directional success program after model testing
-   e)	put the non directed attack success in the './tool/data_precessing'
-   f)	get into tool directory, run `python deal_non_dir.py 2`, each program has more than one target author. If the attack is
+  >	* Non directional conversion
+  >	  * run `python non_directional.py 1` command ,find the appropriate target author,leave the non directional success program after model testing, output directory: "./program_file/nondirectional_file"
+  >	  * put the non directed attack success in the './tool/data_precessing'
+  >	  * get into tool directory, run `python deal_non_dir.py 1`
+  >	  * get into test_transform directory, run `python non_directional.py all` transform to all target authors,leave the non directional success program after model testing
+  >	  * put the non directed attack success in the './tool/data_precessing'
+  >	  * get into tool directory, run `python deal_non_dir.py 2`, each program has more than one target author. If the attack is
 successful,only one needs to be left, and all others need to be deleted
 
 ## Operating environment
