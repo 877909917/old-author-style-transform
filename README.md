@@ -3,8 +3,8 @@
 
 - [Introduce](#introduce)
 - [Function](#function)
-- [Operation Steps](#operation steps)
-- [Operating environment](#operating environment)
+- [Operation-Steps](#operation-steps)
+- [Operating-environment](#operating-environment)
 
 ## Introduce
 
@@ -40,7 +40,7 @@ This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Go che
 $ npm install --global standard-readme-spec
 ```
 
-### Operation Steps
+## Operation Steps
 
 This is only a documentation package. You can print out [spec.md](spec.md) to your console:
 
