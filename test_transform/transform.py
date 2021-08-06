@@ -195,7 +195,6 @@ def transform_P_to_auth(list_a, path_program):
     list_p_main.append('3')
 
     if len(list_p_main) > 0:
-        print(list_p_main)
         py_list = get_eval(list_p_main)
         for elem in py_list:
             # style 1 already transformed,so just skip it
