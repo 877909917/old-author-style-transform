@@ -224,7 +224,7 @@ def find_return(xml_path):
         for file1 in files:
             file = os.path.join(root, file1)
             e = init_parser(file)
-            flag, s = hunt4(e)
+            flag = hunt4(e)
             if flag == True:
                 break
     return flag
