@@ -450,7 +450,7 @@ def cpp_lib_to_c(e, src_style, dst_style, ignore_list=[], instances=None):
                     flag1, new_ignore_list1 = transform_cout_to_printf(func, var_list, tree_root, ignore_list)
                     flag2, new_ignore_list2 = transform_cin_to_scanf(func, var_list, tree_root, ignore_list)
             elif src_style == '13.2':
-                flag1, tree_root1, new_ignore_list1 = c_lib_to_cpp.cpp_lib_to_c(e, ignore_list, instances)
+                flag1, tree_root1, new_ignore_list1 = c_lib_to_cpp.c_lib_to_cpp(e, ignore_list, instances)
                 if not flag1: continue
                 flag1, new_ignore_list1 = transform_cout_to_fout(func, var_list, tree_root, ignore_list)
                 flag2, new_ignore_list2 = transform_cin_to_fin(func, var_list, tree_root, ignore_list)
