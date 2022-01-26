@@ -16,8 +16,7 @@ Change the original author's code style, a total of 19 types of code conversion,
 
 ## Operation Steps
 1. **Data processing**.
->	* `find . -name '*.c' ! -type d -exec bash -c 'expand -t 4 "$0" > /tmp/e && mv /tmp/e "$0"' {} \;` Process the C / C + + data set or Java first. After processing, it's better to save it and replace it with the original data. After that, you don't need to execute the second command (modify '*. c' according to your own data set)
->	* The folder name of the dataset author and program cannot have "." except for the suffix name
+>	*If it is a new dataset,then Execute the `find . -name '*.c' ! -type d -exec bash -c 'expand -t 4 "$0" > /tmp/e && mv /tmp/e "$0"' {} \;` Process the C / C + + data set or Java first. After processing, it's better to save it and replace it with the original data. After that, you don't need to execute the second command (modify '*. c' according to your own data set)
 2. **Enter transform directory**.
   >	* Put the test set in "./program_file/test" directory
   >	* Place the target author style data set in "./program_file/target_author_file” directory
