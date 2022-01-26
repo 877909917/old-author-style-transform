@@ -22,7 +22,7 @@ Change the original author's code style, a total of 19 types of code conversion,
   >	* Place the target author style data set in "./program_file/target_author_file” directory
   >	* Execute the `python get_style.py` command to generate the XML file of author style and program
   >		* output：  
-  >		"./author_style" directory
+  >		"./author_style" directory  
   >		* "./xml_file" directory
   >	* Directional conversion
   >		* run `python targeted_attack.py` command
