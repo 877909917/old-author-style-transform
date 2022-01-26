@@ -25,10 +25,11 @@ Change the original author's code style, a total of 19 types of code conversion,
   "./author_style" directory  
   "./xml_file" directory
   >	* Directional conversion
-  >		* run `python targeted_attack.py` command
-  >		output: "./program_file/directional_file" directory
+  >		* run `python targeted_attack.py` command  
+  output: "./program_file/directional_file" directory
   >	* Non directional conversion
-  >	  * run `python untargeted_attack.py --form=best`(The forms of transformation are best,random or all)command,output directory: "./program_file/nondirectional_file"
+  >	  * run `python untargeted_attack.py --form=best`(The forms of transformation are best,random or all)command  
+  output directory: "./program_file/nondirectional_file"
 
 ## Operating environment
 > * Linux environment
